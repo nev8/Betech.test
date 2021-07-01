@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Betech test</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <section class="navbar">
+        <article class="container">
+            <ul>
+                <li><a href="#index.html">Home</a></li>
+                <li><a href="#">Catalog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </article>
+    </section>
+    <!-- Header -->
+    <header>
+        <article class="container">
+            <div>
+                <h1>Welcome on our <br> online store</h1>
+                <p>Here you can order related products <br> and merchadinse</p>
+                <button>Discover more</button>
+            </div>
+        </article>
+    </header>
+    <!-- Lineargradient line-->
+    <section class="linear"></section>
+    <!-- Pictures grid - store categories -->
+    <section class="grid">
+        <article class="container">
+            <div class="firstColumn">
+                <div>
+                    <img src="img/umbrella_category_1.png" alt="">
+                    <h3 id="new">New!</h3>
+                </div>
+                <div>
+                    <img src="img/umbrella_category_1.png" alt="">
+                    <h3 id="merchandise">Merchandise</h3>
+                </div>
+            </div>
+            <div class="secondColumn">
+                <div class="one">
+                    <img src="img/umbrella_category_1.png" alt="">
+                    <h3 id="clothing">Clothing</h3>
+                </div>
+                <div class="two">
+                    <div class="two-one">
+                        <img src="img/umbrella_category_1.png" alt="">
+                        <h3 id="kids">Kids</h3>
+                    </div>
+                    <div class="two-two">
+                        <img src="img/umbrella_category_1.png" alt="">
+                        <h3 id="sports">Sports</h3>
+                    </div>
+                </div>
+                <div class="three">
+                    <img src="img/umbrella_category_1.png" alt="">
+                    <h3 id="office">Office</h3>
+                </div>
+            </div>
+        </article>
+    </section>
+    <!-- Contact -->
+    <!-- Komponente iz liste bi mogle biti klikabilne ukoliko to zahtevaju, ovde trenutno nisu -->
+    <section class="contact">
+        <ul>
+            <li>
+                <p>Conditions</p> 
+            </li>
+            <li>
+                <p>FAQ</p>
+            </li>
+            <li>
+                <p>Delivery</p>
+            </li>
+        </ul>
+        <article>
+            <a href=""><img src="img/0010_JLG_Webshop_youtube.png" alt=""></a>
+            <a href=""><img src="img/0010_JLG_Webshop_instagram.png" alt=""></a>
+            <a href=""><img src="img/linkedin_icon.png" alt=""></a>
+            <a href=""><img src="img/0010_JLG_Webshop_facebook.png" alt=""></a>
+            <a href=""><img src="img/0010_JLG_Webshop_twitter.png" alt=""></a>
+        </article>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <ul>
+            <li><a href="">Algemene Home</a></li>
+            <li><a href="">Site Map</a></li>
+            <li><a href="">Gebruiksvoorwaarden</a></li>
+            <li><a href="">Privacybeleid</a></li>
+        </ul>
+        <p>Copyright &copy; 2021 Industries</p>
+    </footer>
+
+    <script>
+    $("#new").click(function() {
+        alert("New in store!");
+    });
+    $("#merchandise").click(function() {
+        alert("Helloooo!");
+    });
+    $("#clothing").click(function() {
+        alert("Discover our shop!");
+    });
+    $("#kids").click(function() {
+        alert("More interesting things for kids!");
+    });
+    $("#sports").click(function() {
+        alert("Be active!");
+    });
+    $("#office").click(function() {
+        alert("Be productive!");
+    });
+    </script>
+</body>
+</html>
